@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+	<title>Formulário HTML</title>
+
+</head>
+<body>
+    
+	<form action="vendas.php" class="formulario" method="post"> 
+        
+		<p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+          
+			<label for="produtos">Produtos</label>
+            <input type="text" id="produtos" name="produtos" placeholder="Digite o Produto*" required>
+        
+		</div>
+        
+        <div class="field">
+          
+			<label for="preco">Preço</label>
+            <input type="float" id="preco" name="preco" placeholder="Digite o Preço">
+        
+		</div>
+
+        <div class="field">
+           
+			<label for="qtdvendas">Quantidade de Vendas</label>
+            <input type="float" id="qtdvendas" name="qtdvendas" placeholder="Digite a Quantidade de Vendas*" required>
+        
+		</div>        
+    
+			<input type="submit" name="acao" value="Enviar">
+ 
+	</form>
+
+</body>
+</html>
